@@ -1,0 +1,146 @@
+* {
+box-sizing: border-box;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* @end Montserrat group */
+
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+nav {
+  background-color: #00697F;
+  position: fixed;
+  height: 12rem;
+  width: 100%;
+}
+
+/* Screenshot of Map */
+.map-image {
+  padding-top: 12rem;
+}
+
+img {
+  width: 61.2rem;
+}
+
+/* ------------------------------- */
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  padding: 5rem;
+}
+
+/* Line, Destination, Arrival */
+.list-header {
+  padding: 1rem;
+}
+
+.line, .destination, .arrival {
+  font-size: 2.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.line {
+  padding-left: 1.8rem;
+  padding-right: 3.8rem;
+}
+
+.destination {
+  padding-right: 16rem;
+}
+/*-------------------------------- */
+
+/* Controls size of each box */
+.grid {
+  border-top: 0.1rem solid;
+  border-bottom: 0.1rem solid;
+  border-color: #e5e5e5;
+  padding-bottom: 20%;
+}
+
+.content {
+
+}
+
+.green-indicator {
+  float: left;
+  height: 12.5rem;
+  width: 1rem;
+  background-color: #98E175;
+}
+
+.bus-number {
+  font-size: 3.5rem;
+  font-weight: 600;
+  float: left;
+  padding: 1.5rem 0rem 2rem 1.9rem;
+  /*padding: top, right, bottom, left*/
+}
+
+/*column chunk for destination*/
+.location {
+  float: left;
+  padding: 1.5rem 0rem 2rem 4rem;
+}
+
+/* column chunk for arrival */
+.times {
+  float: left;
+  padding: 1.5rem 0rem 2rem 6rem;
+}
+
+/* use this to control space b/t Randolph and Easbound */
+.destination-name {
+  font-size: 2.6rem;
+  font-weight: 600;
+  padding-bottom: 3%;
+}
+
+/*use this to control space b/t Eastbound and Frequency */
+.frequency {
+  padding-top: 8%;
+}
+/* direction and freq have same font-size */
+.direction {
+  color: gray;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.frequency {
+  color: gray;
+  font-size: 1.9rem;
+  font-weight: 300;
+}
+
+.actual-time {
+  font-size: 2.6rem;
+  font-weight: 600;
+  padding-bottom: 4%;
+}
+
+.minutes {
+  color: gray;
+  font-size: 1.9rem;
+  font-weight: 300;
+  text-align: right;
+}
