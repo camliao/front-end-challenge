@@ -6,9 +6,6 @@ box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 
-
-/* @end Montserrat group */
-
 body {
   background-color: white;
   font-family: 'Montserrat', sans-serif;
@@ -47,7 +44,7 @@ h1 {
   padding: 5rem;
 }
 
-/* Line, Destination, Arrival */
+/* Line, Destination, Arrival: Header */
 .list-header {
   padding: 1rem;
 }
@@ -77,10 +74,6 @@ h1 {
   padding-bottom: 20%;
 }
 
-.content {
-
-}
-
 .green-indicator {
   float: left;
   height: 12.5rem;
@@ -96,13 +89,15 @@ h1 {
   /*padding: top, right, bottom, left*/
 }
 
-/*column chunk for destination*/
+/* column chunk for destination:
+so I can group destination name, direction, and frequency together */
 .location {
   float: left;
   padding: 1.5rem 0rem 2rem 4rem;
 }
 
-/* column chunk for arrival */
+/* column chunk for arrival:
+so I can group the time and minutes together  */
 .times {
   float: left;
   padding: 1.5rem 0rem 2rem 6rem;
@@ -115,11 +110,7 @@ h1 {
   padding-bottom: 3%;
 }
 
-/*use this to control space b/t Eastbound and Frequency */
-.frequency {
-  padding-top: 8%;
-}
-/* direction and freq have same font-size */
+
 .direction {
   color: gray;
   font-size: 2.2rem;
@@ -130,6 +121,7 @@ h1 {
   color: gray;
   font-size: 1.9rem;
   font-weight: 300;
+  padding-top: 8%;
 }
 
 .actual-time {
