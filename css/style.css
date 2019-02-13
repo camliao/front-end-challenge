@@ -6,8 +6,6 @@ box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 
-
-
 body {
   background-color: white;
   font-family: 'Montserrat', sans-serif;
@@ -48,23 +46,24 @@ h1 {
 
 /* Line, Destination, Arrival: Header */
 .list-header {
-  padding: 1rem;
+  padding: 1.2rem;
 }
 
 .line, .destination, .arrival {
-  font-size: 2.1rem;
-  font-weight: 500;
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
   text-transform: uppercase;
   display: inline-block;
 }
 
 .line {
   padding-left: 1.3rem;
-  padding-right: 4.5rem;
+  padding-right: 3.4rem;
 }
 
 .destination {
-  padding-right: 15rem;
+  padding-right: 13.8rem;
 }
 /*-------------------------------- */
 
@@ -83,14 +82,26 @@ h1 {
   background-color: #98E175;
 }
 
+.orange-indicator {
+  float: left;
+  height: 14rem;
+  width: 1rem;
+  background-color: orange;
+}
+
+.red-indicator {
+  float: left;
+  height: 14rem;
+  width: 1rem;
+  background-color: #F55757;
+}
+
 .bus-number {
+  float: left;
   font-size: 3rem;
   font-weight: 600;
-  float: left;
   padding: 2rem 0rem 2rem 1.4rem;
   width: 123.13px;
-
-  /*padding: top, right, bottom, left*/
 }
 
 /* column chunk for destination:
@@ -99,7 +110,6 @@ so I can group destination name, direction, and frequency together */
   float: left;
   padding: 2rem 0rem 2rem 3rem;
   min-width: 500.44px;
-
 }
 
 /* column chunk for arrival:
@@ -142,7 +152,6 @@ so I can group the time and minutes together  */
   font-weight: 600;
   padding-bottom: 7%;
   min-width: 160px;
-
 }
 
 .minutes {
@@ -150,15 +159,12 @@ so I can group the time and minutes together  */
   font-size: 2rem;
   font-weight: 300;
   text-align: right;
-
 }
 
 .arrow-right {
   color: gray;
   float: left;
   padding-top: 5rem;
-
-
 }
 
 /* ------------------------------------------- */
