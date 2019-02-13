@@ -27,11 +27,13 @@ nav {
 
 /* Screenshot of Map */
 .map-image {
-  padding-top: 12rem;
+  padding-top: 0rem;
+  height: 750px;
 }
 
 img {
   width: 61.2rem;
+
 }
 
 /* ------------------------------- */
@@ -41,29 +43,33 @@ h1 {
   font-weight: 500;
   text-align: center;
   color: white;
-  padding: 4rem;
+  padding: 3.7rem;
 }
 
 /* Line, Destination, Arrival: Header */
 .list-header {
-  padding: 1.2rem;
+  background-color: white;
+  padding-top: 1.5rem;
+
 }
 
 .line, .destination, .arrival {
+  display: inline-block;
   font-size: 2.2rem;
   font-weight: 400;
   letter-spacing: 1px;
+  padding-bottom: 0.7rem;
   text-transform: uppercase;
-  display: inline-block;
+
 }
 
 .line {
-  padding-left: 1.3rem;
-  padding-right: 3.4rem;
+  padding-left: 2.3rem;
+  padding-right: 3.6rem;
 }
 
 .destination {
-  padding-right: 13.8rem;
+  padding-right: 14rem;
 }
 /*-------------------------------- */
 
@@ -73,6 +79,10 @@ h1 {
   border-bottom: 0.1rem solid;
   border-color: #e5e5e5;
   padding-bottom: 23%;
+}
+
+.scroll {
+  padding-top: 107%;
 }
 
 .green-indicator {
