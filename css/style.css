@@ -6,6 +6,8 @@ box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 
+
+
 body {
   background-color: white;
   font-family: 'Montserrat', sans-serif;
@@ -57,12 +59,12 @@ h1 {
 }
 
 .line {
-  padding-left: 1.8rem;
-  padding-right: 4.8rem;
+  padding-left: 1.3rem;
+  padding-right: 4.5rem;
 }
 
 .destination {
-  padding-right: 16rem;
+  padding-right: 15rem;
 }
 /*-------------------------------- */
 
@@ -71,7 +73,7 @@ h1 {
   border-top: 0.1rem solid;
   border-bottom: 0.1rem solid;
   border-color: #e5e5e5;
-  padding-bottom: 24%;
+  padding-bottom: 23%;
 }
 
 .green-indicator {
@@ -82,10 +84,10 @@ h1 {
 }
 
 .bus-number {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 600;
   float: left;
-  padding: 1.95rem 0rem 2rem 2rem;
+  padding: 2rem 0rem 2rem 1.4rem;
   width: 123.13px;
 
   /*padding: top, right, bottom, left*/
@@ -95,7 +97,7 @@ h1 {
 so I can group destination name, direction, and frequency together */
 .location {
   float: left;
-  padding: 1.95rem 0rem 2rem 4rem;
+  padding: 2rem 0rem 2rem 3rem;
   min-width: 500.44px;
 
 }
@@ -104,33 +106,43 @@ so I can group destination name, direction, and frequency together */
 so I can group the time and minutes together  */
 .times {
   float: left;
-  padding: 1.95rem 0rem 2rem 4rem;
+  padding: 2rem 0rem 2rem 2rem;
 }
+
+.break {
+  float: left;
+  height: 14rem;
+  width: 4rem;
+  background-color: white;
+}
+
 
 /* use this to control space b/t Randolph and Easbound */
 .destination-name {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-weight: 600;
   padding-bottom: 3%;
 }
 
 .direction {
   color: gray;
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   font-weight: 300;
 }
 
 .frequency {
   color: gray;
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: 300;
-  padding-top: 11%;
+  padding-top: 9%;
 }
 
 .actual-time {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-weight: 600;
   padding-bottom: 7%;
+  min-width: 160px;
+
 }
 
 .minutes {
@@ -138,12 +150,19 @@ so I can group the time and minutes together  */
   font-size: 2rem;
   font-weight: 300;
   text-align: right;
+
 }
 
 .arrow-right {
   color: gray;
   float: left;
-  padding: 5rem 0rem 1rem 3rem;
+  padding-top: 5rem;
+
+
 }
 
 /* ------------------------------------------- */
+.devon {
+  height: 14rem;
+  width: 3rem;
+}
