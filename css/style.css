@@ -69,12 +69,12 @@ img {
 }
 
 .line {
-  padding-left: 2.3rem; /* control spacing from left-edge */
-  padding-right: 3.6rem; /* control spacing between 'line' and 'destination' */
+  padding-left: 2.5rem; /* control spacing from left-edge */
+  padding-right: 3.9rem; /* control spacing between 'line' and 'destination' */
 }
 
 .destination {
-  padding-right: 14rem; /* control spacing between 'destination' and 'arrival'*/
+  padding-right: 14.3rem; /* control spacing between 'destination' and 'arrival'*/
 }
 /*-------------------------------- */
 
@@ -90,21 +90,22 @@ img {
   padding-top: 107%;
 }
 
-.green-indicator {
+/* green, orange, and red indicators */
+.in-service {
   background-color: #98E175;
   float: left;
   height: 14rem;
   width: 1rem;
 }
 
-.orange-indicator {
+.reroute {
   background-color: orange;
   float: left;
   height: 14rem;
   width: 1rem;
 }
 
-.red-indicator {
+.out-of-service {
   background-color: #F55757;
   float: left;
   height: 14rem;
@@ -115,7 +116,7 @@ img {
   float: left;
   font-size: 3rem;
   font-weight: 600;
-  padding: 2rem 0rem 2rem 1.4rem;
+  padding: 4.4rem 0rem 2rem 1.8rem;
   width: 123.13px;
 }
 
@@ -124,14 +125,14 @@ so I can group destination name, direction, and frequency together as one column
 .location {
   float: left;
   min-width: 500.44px;
-  padding: 2rem 0rem 2rem 3rem;
+  padding: 2rem 0rem 2rem 3.5rem;
 }
 
 /* column chunk for arrival:
 so I can group the time and minutes together as one column  */
 .times {
   float: left;
-  padding: 2rem 0rem 2rem 2rem;
+  padding: 2rem 0rem 2rem 2.8rem;
 }
 
 /* created this div class `break` to help align my arrows; the width of the times
@@ -176,19 +177,19 @@ longer width of the time */
   font-size: 2.4rem;
   font-weight: 600;
   min-width: 160px;
-  padding-bottom: 7%;
+  padding-bottom: 6.3%;
 }
 
 .minutes {
   color: gray;
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: 300;
   text-align: right;
 }
 
 /* control arrow styling/positioning */
 .arrow-right {
-  color: gray;
+  color: lightgray;
   float: left;
   padding-top: 5rem;
 }
